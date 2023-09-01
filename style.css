@@ -1,0 +1,101 @@
+ body{
+    background-color:rgb(18, 39, 39);
+    font-family:sans-serif;
+    color: aqua;
+    margin: unset;
+    padding-bottom: 3%;
+}
+
+.banner{
+    /* background-image: url(images/banner.svg); */
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+}
+
+.left-image{
+    margin-left: 1.2em;
+    margin-top:3em;
+    width: 12em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.heading{
+    display: inline-block;
+    margin-top: 7em;
+}
+
+.left-banner{
+    margin-top: 1em;
+    float: left;
+    margin-left: 3em;
+}
+
+.main-section{
+    margin: auto;
+    width: 75%;
+}
+
+table{
+    text-align: left;
+}
+
+th{
+    padding: 2em;
+    padding-left: 1.2em;
+    font-size: large;
+}
+
+.song-number{
+    width: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.song-title{
+    width: 550px;
+    border-bottom: 2px solid grey;
+}
+
+.song-artist{
+    width: 250px;
+    border-bottom: 2px solid grey;
+}
+
+.song-duration{
+    width: 100px;
+    border-bottom: 2px solid grey;
+}
+
+td{
+    padding: 1.2em;
+}
+
+tr:hover{
+    color: tomato;
+}
+
+.controls img{
+    margin-top: 1em;
+    width: 3.5em;
+}
+
+#img, #list{
+    width: 2em;
+    height: 2em;
+}
+
+#song1{
+    width: 30px;
+    height: 25px;
+}
+
+.music-control{
+    position: unset;
+    margin-left: 350px;
+}
+
+#list1{
+    width: 15px;
+    height: 10px;
+}

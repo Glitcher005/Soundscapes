@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/music logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundscapes - Your Music Experience</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="left-banner">
+            <img class="left-image" src="images/image.png" alt="left-banner-image">
+        </div>
+        <div class="heading">
+            <h1>Vibes in Motion</h1>
+            <p>Pop Fusion Grooves and Moves</p>
+        </div>
+    </div>
+
+    <div class="main-section">
+
+        <div class="controls" onclick="playaudio()" id="play-pause"><img class="play-button" src="images/play-button.png"
+                alt="play-button">
+        </div>
+
+        <audio id="song"></audio>
+        <table>
+            <thead>
+                <th class="song-number">#</th>
+                <th class="song-title"><img id="list" src="images/music.png"></th>
+                <th class="song-artist"><img id="list" src="images/artist.png"></th>
+                <th class="song-duration"><img id="list" src="images/timelapse.png"></th>
+            </thead>
+
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td><img id="list" src="images/image 10.png" draggable="false">The Moments I'm Missing</td>
+                <td>WHITENO1SE & Ranji Ft. Nina Nesbitt</td>
+                <td>03:04</td>
+            </tr>
+
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td><img id="list" src="images/image 2.png" draggable="false">Dance Monkey</td>
+                <td>Tones and I</td>
+                <td>03:29</td>
+            </tr>
+
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td><img id="list" src="images/image 3.png" draggable="false">Hymn for the Weekend</td>
+                <td>Coldplay</td>
+                <td>04:18</td>
+            </tr>
+
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td><img id="list" src="images/image 4.png" draggable="false">Levitating</td>
+                <td>Dua Lipa</td>
+                <td>03:23</td>
+            </tr>
+
+            <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td><img id="list" src="images/image 5.png" draggable="false">Move Your Body</td>
+                <td>Sia</td>
+                <td>04:07</td>
+            </tr>
+
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td><img id="list" src="images/image 6.png" draggable="false">Blinding Lights</td>
+                <td>The Weekend</td>
+                <td>03:20</td>
+            </tr>
+
+            <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td><img id="list" src="images/image 7.png" draggable="false">Let Me Love You</td>
+                <td>DJ Snake ft.Justin Bieber</td>
+                <td>03:25</td>
+            </tr>
+
+            <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td><img id="list" src="images/image 8.png" draggable="false">Cheap Thrills</td>
+                <td>Sia ft.Sean Paul</td>
+                <td>03:31</td>
+            </tr>
+
+            <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td><img id="list" src="images/image 9.png" draggable="false">Take It Off</td>
+                <td>Kesha</td>
+                <td>03:35</td>
+            </tr>
+
+            <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td><img id="list" src="images/image 1.png" draggable="false">Waka Waka(This time for Africa)</td>
+                <td>Shakira</td>
+                <td>02:40</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
